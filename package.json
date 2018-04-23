@@ -4,10 +4,11 @@
   "description": "A little benchmark to compare ways of merging objects in JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Tests are built in to the script\"; npm start",
+    "test": "npm start",
     "start": "node index.js"
   },
-  "author": "",
+  "author": "Neil de Carteret <npm@lumphammer.com>",
+  "repository": "github:n3dst4/bench-object-updates",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.1.2",
@@ -31,8 +32,19 @@
         "error",
         "last"
       ],
-      "semi": ["error", "always"],
-      "spaced-comment": ["error", "always", { "exceptions": ["/"] }]
+      "semi": [
+        "error",
+        "always"
+      ],
+      "spaced-comment": [
+        "error",
+        "always",
+        {
+          "exceptions": [
+            "/"
+          ]
+        }
+      ]
     }
   }
 }
