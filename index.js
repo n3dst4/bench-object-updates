@@ -5,7 +5,7 @@ const uniqBy = require('lodash.uniqby');
 const chalk = require('chalk');
 
 ////////////////////////////////////////////////////////////////////////////////
-// this is a spike to compare performance for various ways of marging two
+// this is a spike to compare performance for various ways of merging two
 // objects.
 // tests are scattered throughout as `expect` statements
 
