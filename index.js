@@ -1,7 +1,7 @@
 const chai = require('chai');
 const randomWord = require('random-word');
 const IMap = require('immutable').Map;
-const uniqBy = require('lodash.uniqby');
+const uniqBy = require('lodash/uniqby');
 const chalk = require('chalk');
 
 ////////////////////////////////////////////////////////////////////////////////
